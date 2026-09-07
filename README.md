@@ -2,6 +2,8 @@
 
 Una agenda visual y liviana para organizar conversaciones de equipo sin perder el foco.
 
+Repositorio: https://github.com/juanqui8432/friendly-meetings
+
 ## Qué incluye
 
 - Agenda filtrable por hoy, mañana o todas las reuniones.
@@ -26,16 +28,20 @@ Para generar la versión de producción:
 npm run build
 ```
 
-## Subir a GitHub
+## Repositorio ya publicado
 
-Creá un repositorio vacío en GitHub y ejecutá desde esta carpeta:
+El proyecto ya está disponible en la rama `main`:
+
+https://github.com/juanqui8432/friendly-meetings
+
+Si necesitás volver a conectarlo desde otra carpeta, usá:
 
 ```bash
 git init
 git add .
 git commit -m "Initial Friendly Meetings app"
 git branch -M main
-git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+git remote add origin https://github.com/juanqui8432/friendly-meetings.git
 git push -u origin main
 ```
 
